@@ -20,7 +20,24 @@ const ServiceCard: React.FC = () => {
             target="_blank"
           >
             <AiFillCodeSandboxCircle className="icon" />
-            <div className="name">{CONFIG.projects[0].name}</div>
+            <div className="name">{project.name}</div>
+          </a>
+        ))}
+      </StyledWrapper>
+
+      <StyledTitle>
+        <Emoji>🌏</Emoji> Groups
+      </StyledTitle>
+      <StyledWrapper>
+        {CONFIG.groups.map((group, idx) => (
+          <a
+            key={idx}
+            href={`${group.href}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiFillCodeSandboxCircle className="icon" />
+            <div className="name">{group.name}</div>
           </a>
         ))}
       </StyledWrapper>

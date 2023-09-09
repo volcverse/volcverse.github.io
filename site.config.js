@@ -17,6 +17,12 @@ const CONFIG = {
       href: "https://aim-uofa.github.io/AutoStory/",
     },
   ],
+  groups: [
+    {
+      name: `AIM`,
+      href: "https://github.com/aim-uofa",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "Canyu's blog",
