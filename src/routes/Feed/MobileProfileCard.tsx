@@ -21,7 +21,7 @@ const MobileProfileCard: React.FC<Props> = () => {
             alt="profile_image"
           />
           <div className="wrapper">
-            <div className="top">{CONFIG.profile.name}</div>
+            <div className="top">{CONFIG.profile.rname}</div>
             <div className="mid">{CONFIG.profile.role}</div>
             <div className="btm">{CONFIG.profile.bio}</div>
           </div>
