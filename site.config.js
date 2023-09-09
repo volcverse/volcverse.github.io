@@ -7,14 +7,14 @@ const CONFIG = {
     role: "CAD&CG Lab, ZJU",
     bio: "Student",
     email: "volcverse@gmail.com",
-    linkedin: "volcverse",
+    // linkedin: "volcverse",
     github: "volcverse",
     instagram: "",
   },
   projects: [
     {
-      name: `Canyu's blog`,
-      href: "https://github.com/volcverse/volcverse.github.io",
+      name: `Autostory`,
+      href: "https://aim-uofa.github.io/AutoStory/",
     },
   ],
   // blog setting (required)
