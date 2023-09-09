@@ -1,6 +1,7 @@
 import { CONFIG } from "site.config"
 import React from "react"
-import { GiSpellBook, HiUserGroup } from "react-icons/ai"
+import { HiUserGroup } from "react-icons/hi"
+import { GiSpellBook } from "react-icons/gi"
 import styled from "@emotion/styled"
 import { Emoji } from "src/components/Emoji"
 
