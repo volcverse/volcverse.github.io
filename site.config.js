@@ -13,8 +13,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Autostory`,
-      href: "https://aim-uofa.github.io/AutoStory/",
+      name: `Test`,
+      href: "https://google.com",
     },
   ],
   groups: [
