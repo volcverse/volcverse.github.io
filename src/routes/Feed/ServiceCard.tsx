@@ -2,8 +2,22 @@ import { CONFIG } from "site.config"
 import React from "react"
 import { HiUserGroup } from "react-icons/hi"
 import { GiSpellBook } from "react-icons/gi"
+import { MdDraw } from "react-icons/md";
 import styled from "@emotion/styled"
 import { Emoji } from "src/components/Emoji"
+
+const IconList = (idx : Number) => {
+  if (idx == 0){
+    return (
+      <GiSpellBook className="icon" />
+    )
+  }
+  else if (idx == 1){
+    return (
+      <MdDraw className="icon" />
+    )
+  }
+}
 
 const ServiceCard: React.FC = () => {
   if (!CONFIG.projects) return null
@@ -20,7 +34,7 @@ const ServiceCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <GiSpellBook className="icon" />
+            {IconList(idx)}
             <div className="name">{project.name}</div>
           </a>
         ))}

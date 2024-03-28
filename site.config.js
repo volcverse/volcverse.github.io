@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "can-yu",
     rname: "Canyu",
-    image: "/avatar.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/myavatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "CAD&CG Lab, ZJU",
     bio: "Student",
     email: "volcverse@gmail.com",
@@ -13,8 +13,12 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Test`,
-      href: "https://google.com",
+      name: `AutoStory`,
+      href: "https://aim-uofa.github.io/AutoStory/",
+    },
+    {
+      name: `FreeCustom`,
+      href: "https://aim-uofa.github.io/FreeCustom/",
     },
   ],
   groups: [
