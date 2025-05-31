@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: My Notes
+summary: My Notes
 type: landing
 
 cascade:
@@ -11,9 +11,9 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: My Notes
     content:
-      title: Teaching
+      title: My Notes
       filters:
         folders:
           - teaching
